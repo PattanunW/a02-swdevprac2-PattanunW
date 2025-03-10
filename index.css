@@ -1,0 +1,28 @@
+#top-right {
+    vertical-align: text-top;
+    text-align-last: right;
+}
+
+#liverpool {
+    width: 450px;
+    height: 350px;
+}
+
+#manunited {
+    width: 450px;
+    height: 350px;
+}
+
+#arsenal {
+    width: 450px;
+    height: 350px;
+}
+
+#button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}

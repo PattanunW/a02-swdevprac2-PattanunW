@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>England Tour</title>
+        <link rel="stylesheet" href="booking.css"/>
+    </head>
+    <body>
+        <script src="booking.js"></script>
+        <div id="bottom-mid">
+            <p>6733191521 Pattanun Wattanacheevakosol</p>
+        </div>
+        <h1>Book England Tour</h1>
+        <form>
+            <label for="group">Group Size:</label><br>
+            <select id="group" name="group">
+                <option value="small">Small: 10-15 people</option>
+                <option value="standard">Standard: 35-40 people</option>
+              </select><br>
+            <label for="joinland">Join Land:</label><br>
+            <input type="checkbox" id="joinland" name="joinland" onclick="confirmButton()"><br>
+            <label for="travellers">Travellers:</label><br>
+            <input type="number" id="travellers" name="travellers" min="1" max="15"><br>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br>
+            <input type="submit" value="Submit">
+          </form>
+    </body>
+</html>
